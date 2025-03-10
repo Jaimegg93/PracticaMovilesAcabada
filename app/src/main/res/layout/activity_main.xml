@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#F8E8FF">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Exam App"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="100dp"/>
+
+
+
+    <!-- Icono -->
+    <ImageView
+        android:id="@+id/calculadoraImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#D3D3D3"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/calculadora"/>
+
+
+
+    <!-- Botón -->
+    <Button
+        android:id="@+id/loginImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Mis Montañas"
+        android:background="@drawable/boton_redondeado"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

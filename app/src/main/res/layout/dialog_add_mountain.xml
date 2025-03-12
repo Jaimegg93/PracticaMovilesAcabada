@@ -12,6 +12,8 @@
         android:layout_height="wrap_content"
         android:hint="Nombre de la montaña"/>
 
+
+
     <EditText
         android:id="@+id/et_altura"
         android:layout_width="match_parent"
@@ -19,8 +21,17 @@
         android:hint="Altura"
         android:inputType="number"/>
 
+
+    <EditText
+        android:id="@+id/et_concejo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Concejo"
+        />
+
     <Spinner
         android:id="@+id/spinner_usuario"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        />
 </LinearLayout>

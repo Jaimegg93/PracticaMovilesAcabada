@@ -6,11 +6,11 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <TextView
-        android:id="@+id/tv_nombre"
+    <EditText
+        android:id="@+id/et_nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nombre de la montaña"
+        android:hint="Nombre de la montaña"
         android:enabled="false"/>
 
     <EditText
@@ -19,4 +19,20 @@
         android:layout_height="wrap_content"
         android:hint="Altura"
         android:inputType="number"/>
+
+
+    <EditText
+        android:id="@+id/et_concejo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Concejo"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        />
+
 </LinearLayout>

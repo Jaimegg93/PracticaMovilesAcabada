@@ -31,74 +31,82 @@
 
         <!-- Fila 1 -->
         <TableRow>
-            <Button android:id="@+id/btn_borrar"
-                android:text="BORRAR"
-                android:layout_span="2"
-                android:layout_margin="2dp"
+
+            <Button
+                android:id="@+id/btn_borrar"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"/>
+                android:layout_marginHorizontal="2dp"
+                android:layout_span="2"
+                style="@style/botonRojo"
+                android:text="BORRAR" />
+
             <Button android:id="@+id/btn_inv"
                 android:text="INV"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-
-                android:background="@drawable/boton_cuadrado"/>
+                style="@style/botonNaraja"
+                />
             <Button android:id="@+id/btn_dividir"
                 android:text="/"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"/>
+                style="@style/botonNaraja"
+                />
         </TableRow>
 
         <!-- Fila 2 -->
         <TableRow>
             <Button android:id="@+id/btn_7"
                 android:text="7"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"/>
+                style="@style/botonAzul"
+                />
             <Button android:id="@+id/btn_8"
                 android:text="8"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"/>
+                style="@style/botonAzul"
+                />
             <Button android:id="@+id/btn_9"
                 android:text="9"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"/>
+                style="@style/botonAzul"
+                />
             <Button android:id="@+id/btn_multiplicar"
                 android:text="x"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"/>
+                style="@style/botonNaraja"
+                />
         </TableRow>
 
         <!-- Fila 3 -->
         <TableRow>
             <Button
                 android:id="@+id/btn_4"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"
+                style="@style/botonAzul"
                 android:text="4"/>
             <Button
                 android:id="@+id/btn_5"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"
+                style="@style/botonAzul"
                 android:text="5"/>
             <Button
                 android:id="@+id/btn_6"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"
+                style="@style/botonAzul"
                 android:text="6"/>
             <Button
                 android:id="@+id/btn_restar"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"
+                style="@style/botonNaraja"
                 android:text="-"/>
         </TableRow>
 
@@ -106,27 +114,27 @@
         <TableRow>
             <Button
                 android:id="@+id/btn_1"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"
+                style="@style/botonAzul"
                 android:text="1"/>
             <Button
                 android:id="@+id/btn_2"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"
+                style="@style/botonAzul"
                 android:text="2"/>
             <Button
                 android:id="@+id/btn_3"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"
+                style="@style/botonAzul"
                 android:text="3"/>
             <Button
                 android:id="@+id/btn_sumar"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"
+                style="@style/botonNaraja"
                 android:text="+"/>
         </TableRow>
 
@@ -135,13 +143,14 @@
             <Button android:id="@+id/btn_0"
                 android:layout_span="3"
                 android:layout_height="100dp"
-                android:layout_margin="2dp"
-                android:background="@drawable/boton_cuadrado"
+                android:layout_marginHorizontal="2dp"
+                style="@style/botonAzul"
                 android:text="0"/>
             <Button android:id="@+id/btn_igual"
-                android:layout_margin="2dp"
+                android:layout_marginHorizontal="2dp"
                 android:layout_height="100dp"
-                android:background="@drawable/boton_cuadrado"
+                style="@style/botonNaraja"
+
                 android:text="="/>
         </TableRow>
     </TableLayout>

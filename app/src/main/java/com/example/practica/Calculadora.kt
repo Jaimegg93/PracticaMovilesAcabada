@@ -7,9 +7,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.practica.R
 
-class calculadora : AppCompatActivity() {
+class Calculadora : AppCompatActivity() {
 
     private var displayValue = "0"        // Valor mostrado en el display
     private var firstOperand: Int? = null  // Primer operando

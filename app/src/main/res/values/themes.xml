@@ -4,6 +4,20 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
-
+    <style name="botonRojo">
+        <item name="android:backgroundTint">@color/rojo</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+    <style name="botonNaraja">
+        <item name="android:backgroundTint">@color/naranja</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+    <style name="botonAzul">
+        <item name="android:backgroundTint">@color/azul</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
     <style name="Theme.GarciaJaimeParcial2" parent="Base.Theme.GarciaJaimeParcial2" />
 </resources>

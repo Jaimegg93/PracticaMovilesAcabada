@@ -7,7 +7,6 @@
     android:orientation="vertical"
     android:gravity="bottom"
     android:background="#FFFFFF"
-
     android:padding="16dp">
 
     <!-- Display -->
@@ -46,6 +45,7 @@
                 android:layout_height="100dp"
                 style="@style/botonNaraja"
                 />
+
             <Button android:id="@+id/btn_dividir"
                 android:text="/"
                 android:layout_marginHorizontal="2dp"
